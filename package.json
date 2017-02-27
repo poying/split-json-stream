@@ -1,0 +1,20 @@
+{
+  "name": "split-json-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "make build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
+  },
+  "dependencies": {
+    "multipipe": "^1.0.2",
+    "stream-json": "^0.4.2"
+  }
+}
